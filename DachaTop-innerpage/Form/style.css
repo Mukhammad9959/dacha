@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+button {
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  width: 100%;
+  min-height: 400px;
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.sms {
+  width: 300px;
+  height: 300px;
+}
+
+.sms-heading {
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.sms-inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 30px;
+}
+
+.sms-input {
+  width: 66px;
+  height: 52px;
+  border: 2px solid #dadada;
+  border-radius: 3px;
+  margin-bottom: 30px;
+  font-size: 28px;
+  padding: 5px 22px;
+}
+
+.sms-input:focus {
+  border-color: #ff7e47;
+  outline: none;
+}
+
+.sms-link-wrapper {
+  text-align: center;
+}
+
+.sms-link {
+  font-size: 18px;
+  display: block;
+  color: #ff7e47;
+  margin-bottom: 10px;
+}
+
+.sms-info {
+  margin-bottom: 10px;
+  line-height: 20px;
+}
+
+.sms-btn {
+  width: 294px;
+  height: 52px;
+  background: #ff7e47;
+  border-radius: 3px;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 30px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header class="py-5"></header>
+    <div class="filter px-5">
+      <div class="row">
+        <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 filter-border">
+          <h6 class="filter-heading-text">Цена</h6>
+          <div class="filter-progres mt-4">
+            <span class="multi-range">
+              <input type="range" min="0" max="50" value="5" id="lower" />
+              <input type="range" min="0" max="50" value="45" id="upper" />
+            </span>
+          </div>
+          <div class="filter-price pt-5 d-flex justify-content-between">
+            <div class="filter-price-inner">
+              <label for="" class="filter-text">От</label>
+              <input type="number" placeholder="100 000 сум" />
+            </div>
+            <div class="filter-price-inner">
+              <label for="" class="filter-text">До</label>
+              <input type="number" placeholder="100 000 000 сум" />
+            </div>
+          </div>
+          <div class="filter-home pt-4">
+            <h6 class="filter-heading-text">Комнаты</h6>
+            <div class="filter-home-inner">
+              <div class="row">
+                <div class="col-6 d-flex align-items-center">
+                  <p class="pt-3 filter-heading-text">Общее кол-во комнат</p>
+                </div>
+                <div
+                  class="col-6 d-flex justify-content-center align-items-center"
+                >
+                  <button class="product-box-counter-innet-btn1 mx-2">-</button>
+                  <p class="pt-3 mx-2">0</p>
+                  <button class="product-box-counter-innet-btn2 mx-2">+</button>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-6 d-flex align-items-center">
+                  <p class="pt-3 filter-heading-text">Спальни</p>
+                </div>
+                <div
+                  class="col-6 d-flex justify-content-center align-items-center"
+                >
+                  <button class="product-box-counter-innet-btn1 mx-2">-</button>
+                  <p class="pt-3 mx-2">0</p>
+                  <button class="product-box-counter-innet-btn2 mx-2">+</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">
+          <h6 class="filter-heading-text">Удобства</h6>
+          <div class="row p-4">
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+              <ul class="chekbox-box">
+                <div class="d-flex align-items-center chekbox-min-box">
+                  <input type="checkbox" name="" id="" />
+                  <li class="ml-3">WiFi Интернет</li>
+                </div>
+                <div class="d-flex align-items-center chekbox-min-box">
+                  <input type="checkbox" name="" id="" />
+                  <li class="ml-3">Отопление</li>
+                </div>
+                <div class="d-flex align-items-center chekbox-min-box">
+                  <input type="checkbox" name="" id="" />
+                  <li class="ml-3">Кондиционер</li>
+                </div>
+                <div class="d-flex align-items-center chekbox-min-box">
+                  <input type="checkbox" name="" id="" />
+                  <li class="ml-3">Телевизор</li>
+                </div>
+                <div class="d-flex align-items-center chekbox-min-box">
+                  <input type="checkbox" name="" id="" />
+                  <li class="ml-3">Гараж</li>
+                </div>
+                <div class="d-flex align-items-center chekbox-min-box">
+                  <input type="checkbox" name="" id="" />
+                  <li class="ml-3">Тапчан</li>
+                </div>
+                <div class="d-flex align-items-center chekbox-min-box">
+                  <input type="checkbox" name="" id="" />
+                  <li class="ml-3">Охрана</li>
+                </div>
+                <div class="d-flex align-items-center chekbox-min-box">
+                  <input type="checkbox" name="" id="" />
+                  <li class="ml-3">Летняя кухня</li>
+                </div>
+              </ul>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+              <div class="d-flex align-items-center chekbox-min-box">
+                <input type="checkbox" name="" id="" />
+                <li class="ml-3">Охрана</li>
+              </div>
+              <div class="d-flex align-items-center chekbox-min-box">
+                <input type="checkbox" name="" id="" />
+                <li class="ml-3">Барбекью</li>
+              </div>
+              <div class="d-flex align-items-center chekbox-min-box">
+                <input type="checkbox" name="" id="" />
+                <li class="ml-3">Сауна</li>
+              </div>
+              <div class="d-flex align-items-center chekbox-min-box">
+                <input type="checkbox" name="" id="" />
+                <li class="ml-3">Шезлонги</li>
+              </div>
+              <div class="d-flex align-items-center chekbox-min-box">
+                <input type="checkbox" name="" id="" />
+                <li class="ml-3">Официант</li>
+              </div>
+              <div class="d-flex align-items-center chekbox-min-box">
+                <input type="checkbox" name="" id="" />
+                <li class="ml-3">Повар</li>
+              </div>
+              <div class="d-flex align-items-center chekbox-min-box">
+                <input type="checkbox" name="" id="" />
+                <li class="ml-3">Жакузи</li>
+              </div>
+              <div class="d-flex align-items-center chekbox-min-box">
+                <input type="checkbox" name="" id="" />
+                <li class="ml-3">Бильярд</li>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+              <div class="d-flex align-items-center chekbox-min-box">
+                <input type="checkbox" name="" id="" />
+                <li class="ml-3">Зимний-бассейн</li>
+              </div>
+              <div class="d-flex align-items-center chekbox-min-box">
+                <input type="checkbox" name="" id="" />
+                <li class="ml-3">Летний-бассейн</li>
+              </div>
+              <div class="d-flex align-items-center chekbox-min-box">
+                <input type="checkbox" name="" id="" />
+                <li class="ml-3">Настольныйтеннис</li>
+              </div>
+              <div class="d-flex align-items-center chekbox-min-box">
+                <input type="checkbox" name="" id="" />
+                <li class="ml-3">Видеонаблюдение</li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="slick/slick.js"
+      type="text/javascript"
+      charset="utf-8"
+    ></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
